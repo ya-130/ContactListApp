@@ -11,7 +11,6 @@ class ContactTableViewController: UITableViewController {
     
     private var persons: [Person]!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         guard let tabBar = tabBarController as? EnterTabBarController else { return }
@@ -27,7 +26,6 @@ class ContactTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 2
     }
-    
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "contact", for: indexPath)

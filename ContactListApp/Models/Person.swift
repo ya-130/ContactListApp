@@ -20,7 +20,10 @@ struct Person {
     static func getPerson() -> [Person] {
         var persons: [Person] = []
         while namesArray.isEmpty == false {
-            persons.append(Person(name: namesArray.remove(at: Int.random(in: 0...(namesArray.count - 1))), surname: surnameArray.remove(at: Int.random(in: 0...(surnameArray.count - 1))), phoneNumber: phoneNumbersArray.remove(at: Int.random(in: 0...(phoneNumbersArray.count - 1))), email: emailsArray.remove(at: Int.random(in: 0...(emailsArray.count - 1)))))
+            persons.append(Person(name: namesArray.remove(at: Int.random(in: 0...(namesArray.count - 1))),
+                                  surname: surnameArray.remove(at: Int.random(in: 0...(surnameArray.count - 1))),
+                                  phoneNumber: phoneNumbersArray.remove(at: Int.random(in: 0...(phoneNumbersArray.count - 1))),
+                                  email: emailsArray.remove(at: Int.random(in: 0...(emailsArray.count - 1)))))
         }
         return persons
     }

@@ -18,7 +18,6 @@ class ContactInfoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         nameLabel.text = person.name
         surnameLabel.text = person.surname
         phoneLabel.text = person.phoneNumber
