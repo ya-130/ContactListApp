@@ -9,5 +9,5 @@ import UIKit
 
 class EnterTabBarController: UITabBarController {
 
-    var persons = Person.getPerson()
+    var persons = Person.getPersons()
 }

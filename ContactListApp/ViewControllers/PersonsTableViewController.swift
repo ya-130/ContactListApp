@@ -17,7 +17,6 @@ class PersonsTableViewController: UITableViewController {
         persons = tabBar.persons
     }
     
-
     // MARK: - Table view data source
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
