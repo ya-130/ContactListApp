@@ -8,12 +8,13 @@
 import UIKit
 
 class PersonsTableViewController: UITableViewController {
-
-    private var persons = Person.getPerson()
-
+    
+    private var persons: [Person]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        guard let tabBar = tabBarController as? EnterTabBarController else { return }
+        persons = tabBar.persons
     }
     
 
