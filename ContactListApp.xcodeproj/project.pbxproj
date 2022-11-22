@@ -16,6 +16,7 @@
 		276E5163292C11E3001CBA3C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276E5162292C11E3001CBA3C /* Person.swift */; };
 		276E5165292C29C3001CBA3C /* PersonsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276E5164292C29C3001CBA3C /* PersonsTableViewController.swift */; };
 		276E5167292C3085001CBA3C /* ContactInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276E5166292C3085001CBA3C /* ContactInfoViewController.swift */; };
+		276E5169292D282C001CBA3C /* ContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276E5168292D282C001CBA3C /* ContactTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		276E5162292C11E3001CBA3C /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		276E5164292C29C3001CBA3C /* PersonsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsTableViewController.swift; sourceTree = "<group>"; };
 		276E5166292C3085001CBA3C /* ContactInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContactInfoViewController.swift; path = ContactListApp/ViewControllers/ContactInfoViewController.swift; sourceTree = "<group>"; };
+		276E5168292D282C001CBA3C /* ContactTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContactTableViewController.swift; path = ContactListApp/ViewControllers/ContactTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		276E513A292C0CAA001CBA3C = {
 			isa = PBXGroup;
 			children = (
+				276E5168292D282C001CBA3C /* ContactTableViewController.swift */,
 				276E5166292C3085001CBA3C /* ContactInfoViewController.swift */,
 				276E5145292C0CAB001CBA3C /* ContactListApp */,
 				276E5144292C0CAB001CBA3C /* Products */,
@@ -200,6 +203,7 @@
 				276E5161292C105E001CBA3C /* DataManager.swift in Sources */,
 				276E5147292C0CAB001CBA3C /* AppDelegate.swift in Sources */,
 				276E5149292C0CAB001CBA3C /* SceneDelegate.swift in Sources */,
+				276E5169292D282C001CBA3C /* ContactTableViewController.swift in Sources */,
 				276E5167292C3085001CBA3C /* ContactInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

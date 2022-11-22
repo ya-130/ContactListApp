@@ -9,7 +9,7 @@ import UIKit
 
 class PersonsTableViewController: UITableViewController {
 
-    var persons = Person.getPerson()
+    private var persons = Person.getPerson()
 
     
     override func viewDidLoad() {
@@ -32,14 +32,13 @@ class PersonsTableViewController: UITableViewController {
         return cell
     }
 
-    /*
     // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        guard let contactInfoVC = segue.destination as? ContactInfoViewController else { return }
+        guard let indexPath = tableView.indexPathForSelectedRow else { return }
+        contactInfoVC.person = persons[indexPath.row]
     }
-    */
+    
 
 }
